@@ -1,0 +1,281 @@
+.navbar-frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #443297;
+}
+
+.container {
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-top > a img {
+  margin-right: 76px;
+  width: 117px;
+  height: 36px;
+}
+
+.navbar-top .nav-search-frame {
+  width: 650px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff;
+  border-radius: 6px;
+}
+.navbar-top .search-box {
+  padding: 10px 17px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-box .category-list {
+  width: 166px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid#D6D6D6;
+}
+
+.category-list select {
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  outline: none;
+
+  color: var(--Color-Text-Dark, #041e42);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.search-box input {
+  margin-left: 12px;
+  width: 387px;
+  height: 22px;
+
+  border: none;
+  outline: none;
+
+  color: var(--Color-Text-Light, #626974);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.nav-search-frame .search-icon-box {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 6px 6px 0px;
+  background: var(--Bg-2, #f5c34b);
+}
+
+.search-icon-box img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar-top .nav-top-menu {
+  margin-left: 59px;
+  width: 416px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-top-menu .top-menu-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-menu-box .box-icon-box {
+  position: relative;
+  margin-right: 16px;
+  width: 54px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.box-icon-box img {
+  width: 22px;
+  height: 22px;
+}
+
+.top-menu-box .box-info-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-info-box span {
+  color: #ffffff;
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.box-info-box strong {
+  color: #fff;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.box-icon-box .basket-count {
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  width: 15px;
+  height: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #f5c34b;
+  border-radius: 50%;
+
+  color: #0b1e40;
+  font-family: Jost;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-bott {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-top: 1px solid #5746a1;
+}
+
+.navbar-bott .navbar-bott-menu-box {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-bott-menu-box .browse-box {
+  width: 185px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid #5746a1;
+}
+
+.browse-box img {
+  margin-right: 10px;
+  width: 20px;
+  height: 18px;
+}
+
+.browse-box span {
+  color: #fff;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.navbar-bott-menu-box .navbar-route-menu {
+  margin-left: 12px;
+  margin-right: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-route-menu .router-menu {
+  margin-right: 20px;
+  width: auto;
+  height: 41px;
+
+  display: flex;
+}
+
+.router-menu a {
+  color: #fff;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.router-menu a.active {
+  color: var(--Bg-2, #f5c34b);
+}
+
+.navbar-bott-menu-box .sorting-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.sorting-menu span {
+  margin-left: 24px;
+  color: #fff;
+  text-align: right;
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
