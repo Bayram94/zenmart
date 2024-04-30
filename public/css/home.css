@@ -730,7 +730,6 @@
 .spec-product-frame .small-product-box img {
   position: absolute;
   right: 30px;
-  top: 40px;
-  bottom: 20px;
+  bottom: 15px;
   mix-blend-mode: darken;
 }
