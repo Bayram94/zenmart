@@ -296,3 +296,227 @@ p {
   font-weight: 500;
   line-height: 28px;
 }
+
+/* FOOTER */
+.footer-frame {
+  position: relative;
+  padding: 90px 0 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f3f5f6;
+}
+
+.footer-frame .footer-spec-title {
+  display: block;
+  margin-bottom: 30px;
+  color: #041e42;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-frame .container {
+  flex-direction: column;
+}
+
+.footer-frame .container .footer-top {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-top .footer-conatct-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-contact-box .footer-contact-main {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-contact-main img {
+  width: 35px;
+  height: 30px;
+}
+
+.footer-frame .footer-contact-main div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-contact-main div strong {
+  color: #041e42;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.footer-frame .footer-contact-main div span {
+  margin-top: 10px;
+  color: #041e42;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.footer-frame .footer-support-box {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-support-box a {
+  color: #041e42;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .footer-media-box {
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-media-box .footer-media-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-frame .footer-media-main .media-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .media-box i {
+  margin-right: 25px;
+}
+
+.footer-frame .footer-media-main .mobile-app-box {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-frame .mobile-app-box img {
+  width: 24px;
+  height: 16px;
+}
+
+.footer-frame .mobile-app-box span {
+  margin-left: 20px;
+  color: #041e42;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer-frame .footer-media-main .card-box {
+  width: 272px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-frame .container .footer-bottom {
+  margin-top: 90px;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer-frame .footer-bottom .footer-main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-main .footer-bottom-left {
+  width: 940px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-frame .footer-bottom-left span {
+  margin-right: 60px;
+  color: #041e42;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.footer-frame .footer-main .footer-bottom-right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-frame .footer-bottom-right .footer-select-box {
+  padding: 10px 20px;
+  width: 180px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid var(--Color-Border, #eaeaea);
+  background: var(--Bg-White, #fff);
+}
+
+.footer-frame .footer-select-box span {
+  color: #626974;
+  font-family: Jost;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer-frame .footer-select-box select {
+  margin-left: 20px;
+  width: 78px;
+  height: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: #041e42;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
