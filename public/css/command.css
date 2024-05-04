@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -88,7 +92,7 @@ p {
   outline: none;
 
   color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -104,7 +108,7 @@ p {
   outline: none;
 
   color: var(--Color-Text-Light, #626974);
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -169,7 +173,7 @@ p {
 
 .navbar-frame .box-info-box span {
   color: #ffffff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -178,7 +182,7 @@ p {
 
 .navbar-frame .box-info-box strong {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +204,7 @@ p {
   border-radius: 50%;
 
   color: #0b1e40;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 8px;
   font-style: normal;
   font-weight: 700;
@@ -245,7 +249,7 @@ p {
 
 .navbar-frame .browse-box span {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -270,7 +274,7 @@ p {
 
 .navbar-frame .router-menu a {
   color: #fff;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -290,7 +294,7 @@ p {
   margin-left: 24px;
   color: #fff;
   text-align: right;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -314,7 +318,7 @@ p {
   display: block;
   margin-bottom: 30px;
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -357,7 +361,7 @@ p {
 
 .footer-frame .footer-contact-main div strong {
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -367,7 +371,7 @@ p {
 .footer-frame .footer-contact-main div span {
   margin-top: 10px;
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -382,7 +386,7 @@ p {
 
 .footer-frame .footer-support-box a {
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -424,7 +428,7 @@ p {
 .footer-frame .mobile-app-box span {
   margin-left: 20px;
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -467,7 +471,7 @@ p {
 .footer-frame .footer-bottom-left span {
   margin-right: 60px;
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -500,7 +504,7 @@ p {
 
 .footer-frame .footer-select-box span {
   color: #626974;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
