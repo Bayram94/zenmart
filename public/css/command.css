@@ -281,7 +281,7 @@ p {
   line-height: 28px;
 }
 
-.navbar-frame.router-menu a.active {
+.navbar-frame .router-menu a.active {
   color: var(--Bg-2, #f5c34b);
 }
 
@@ -523,4 +523,33 @@ p {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+}
+
+/* PAGE ROUTER */
+
+.page-router {
+  margin: 20px 0;
+  width: 1320px;
+}
+
+.page-router span {
+  color: var(--Color-Text-Dark, #041e42);
+  font-family: var(--font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.page-router span.drop {
+  margin: 0 10px;
+}
+
+.page-router span.active {
+  color: var(--Color-Text-Light, #626974);
+  font-family: var(--font);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
